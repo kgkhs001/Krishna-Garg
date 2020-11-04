@@ -1,19 +1,20 @@
-## Welcome to GitHub Pages
+## Krishna Garg
 
-You can use the [editor on GitHub](https://github.com/kgkhs001/myresume/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+I am a sixteen year old Junior attending Kennett High School in North Conway. My main focus is Computer Science in which I am proficient having completed many projects along side teammates and independently. I am skilled at using coding languages 'C' and 'javaScript'. I also have a working understanding of HTML and CSS and am proficient in reactNative. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+### My Projects
+Some of the many projects that I have created and/or worked on include 
+1. Tax Calculator
+2. A Themed Arcade Website
+3. Virtual Air Hockey
+4. 
 ```markdown
 Syntax highlighted code block
 
 # Header 1
 ## Header 2
 ### Header 3
+
 
 - Bulleted
 - List
