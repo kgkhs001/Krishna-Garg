@@ -10,10 +10,9 @@ Some of the many projects that I have created and/or worked on include
 
 
 ### Contact Me
-**
 1. Email: [kgarg1675@gmail.com]
 2. Phone: 603-377-2566
 3. Github:[kgkhs001]
-**
+
 
 
