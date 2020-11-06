@@ -6,7 +6,8 @@ While working in CS50 I was able to gather enough knowledge about the coding lan
 I decided to work with 'C' in order to make a tax calculator. I had never really understood how taxes worked so this seemed like a great opportunity to extend my knowledge and apply coding
 to a real life issue. This tax calculator uses arrays, if else statements, and lists in order to calculate a persons tax amount based on their social status and income. 
 
-## Problems
+## Problems Encountered During Project
+One of the problems I encountered during the making of this project was the size and length of the code. The code below is the condesed version of the original code. Originally the code for this calculator was extremley long and would have been extremley difficult to manage. But with the help of some friends and my teacher I was able to create an algorithm that both made the code easier to mange and easier to read. I was able to make this algorithm using arrays and lists, saving them as variables, and then running the variables through functions I designed myself. 
 
 
 
