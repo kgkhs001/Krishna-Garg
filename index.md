@@ -199,7 +199,13 @@ long calculateTaxes(int taxBracket[], long income)
 }
 ```
 
-2. A Themed Arcade Website
+## A Themed Arcade Website
+### Brief Description
+Using Django our team was able to build a responsive themed spirit week website 
+
+### Problems Encountered
+
+### The Code
 3. Virtual Air Hockey
 
 
