@@ -1,21 +1,24 @@
-## Krishna Garg
+# Krishna Garg
 
 I am a sixteen year old Junior attending Kennett High School in North Conway. My main focus is Computer Science in which I am proficient having completed many projects along side teammates and independently. I am skilled at using coding languages 'C' and 'javaScript'. I also have a working understanding of HTML and CSS and am proficient in reactNative. 
 
-### My Projects 
+## My Projects 
 ### The Tax Calculator Project
 
-## Brief Description
+### Brief Description
 While working in CS50 I was able to gather enough knowledge about the coding language 'C' that I began to work on my own projects. So I decided to work on one big project to end the year.
 I decided to work with 'C' in order to make a tax calculator. I had never really understood how taxes worked so this seemed like a great opportunity to extend my knowledge and apply coding
 to a real life issue. This tax calculator uses arrays, if else statements, and lists in order to calculate a persons tax amount based on their social status and income. 
 
-## Problems Encountered During Project
+### How it Works
+Basically the code gathers inputs such as income and what tax bracket the person would fall under then based on those inputs runs the income through certain if statements that multiply the income by percentages. 
+
+### Problems Encountered During Project
 One of the problems I encountered during the making of this project was the size and length of the code. The code below is the condesed version of the original code. Originally the code for this calculator was extremley long and would have been extremley difficult to manage. But with the help of some friends and my teacher I was able to create an algorithm that both made the code easier to mange and easier to read. I was able to make this algorithm using arrays and lists, saving them as variables, and then running the variables through functions I designed myself. 
 
 
 
-## The Code 
+### The Code 
 ```
 // Author: Krishna Garg
 // Project: AP Create task
