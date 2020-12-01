@@ -2,8 +2,7 @@
 
 I am a sixteen year old Junior attending Kennett High School in North Conway. My main focus is Computer Science in which I am proficient having completed many projects along side teammates and independently. I am skilled at using coding languages 'C' and 'javaScript'. I also have a working understanding of HTML and CSS and am proficient in reactNative. 
 
-### My Projects
-1. 
+### My Projects 
 ### The Tax Calculator Project
 
 ## Brief Description
