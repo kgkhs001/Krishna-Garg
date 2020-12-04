@@ -201,11 +201,12 @@ long calculateTaxes(int taxBracket[], long income)
 
 ## A Themed Arcade Website
 ### Brief Description
-Using Django our team was able to build a responsive themed spirit week website 
+Using Django, our team was able to build a responsive themed spirit week website. Inside of this website was a fully functional arcade with 4 classic games that were coded by individuals in the group. This project was created for the spirit week of the school I was attending. Because it was for the school the website had login usernames and passwords for all of the students who used it. We set up a database that could hold all of this information. 
 
 ### Problems Encountered
 
 ### The Code
+
 3. Virtual Air Hockey
 
 
