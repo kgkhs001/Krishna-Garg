@@ -344,6 +344,15 @@ function draw() {
   
 }
 ```
+## Cube Slasher
+### Brief Description
+Using p5 and the p5.play library I designed a two dimensional game in which the player moves around using the mouse in order to destroy cubes the shoot up from the bottom of the screen. This game implemented concepts such as velocity, add, states, overlap(), etc... into the code to make the movements of objects seem more organic and pleasing asthetically. 
+### Problems Encountered
+The only major problem that was encountered was implementing the concept of destroying the blocks everytime that they were touched by the players sprite. This problem was eventually solved by the use of an if statement and the overlap function. Using this function and condition I was able to say that if the players sprite overlaps with the cube then run a "getPoints" function that adds 5 points to the score and removes the cube from the screen. 
+
+### The Project Result
+Please feel free to check out the final result of the website.
+
 
 ### Contact Me
 1. Email: [kgarg1675@gmail.com]
