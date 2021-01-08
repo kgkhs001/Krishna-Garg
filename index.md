@@ -206,9 +206,8 @@ Using Django, our team was able to build a responsive themed spirit week website
 ### Problems Encountered
 Some of the problems encountered while creating this project were making a leaderboard, updating a leaderboard, saving login information, and checking login information. I was apart of the functionality team that dealt with these kinds of problems. Fortunatley Django had a swear checker that we implemented while fixing the checking login problem. Django also had a saving log in information function in their library. So the only problem left was setting up and updating the leaderboard automatically. This was solved by extensive research and some magic done in Python by some exceptional individuals in the group. 
 
-### The Project Result
-Please feel free to check out the final result of the website.
-Link:
+### The Project Results
+https://docs.google.com/presentation/d/1q_yTt-fjmfMtiSxusfZBc6lu3F4FZXVzE4INFyj3Gxs/edit#slide=id.p
 
 ## Virtual Air Hockey
 ### Brief Description
@@ -217,141 +216,17 @@ Virtual Air Hockey was an add on to the themed website. It was one of the arcade
 ### Problems Encountered
 During the game making process there was an issue that the game started as soon as the page opened up. To fix this we incorporated states into our code which made it so that the user would have to click in order to start any motion in the game. Adding states was difficult to do once we had finished the code since we had to go back and modify the whole code to allow states to take action. 
 
-### The Code
-```
-//Sprites and background variables (keep all)
-var spr,
-    ai,
-    puck;
-var paddles;
-var computerPos;
-var scoreText;
-var counter;
-var finalscore;
-var button;
+### Project Results
+Link: https://editor.p5js.org/kgkhs001/sketches/Wi4ZKIIHz 
 
-const canvasDimensions = [600, 400];
-const RAD2DEG = 180 / Math.PI;
-const DEG2RAD = Math.PI / 180;
-state = 1;
-
-function rand(a, b) {
-    return (a + Math.random() * (b - a));
-}
-
-function setup() {
-    createCanvas(canvasDimensions[0], canvasDimensions[1]);
-    background(20);
-
-    fill(255);
-    textAlign(CENTER);
-
-    paddles = new Group();
-
-    spr = createSprite(20, height / 2, 5, 50);
-    spr.shapeColor = 'white';
-    paddles.add(spr);
-
-    ai = createSprite(width - 20, height / 2, 5, 50);
-    ai.shapeColor = 'white';
-    paddles.add(ai);
-
-    puck = createSprite(width / 2, height / 2, 8, 8);
-    puck.shapeColor = '#c6ed2c';
-
-    aiPos = Array.apply(null, Array(10)).map(Number.prototype.valueOf, height / 2);
-    score = [0,0];
-
-    puck.setSpeed(10, rand(-15, 15));
-}
-
-function draw() {
-    background(20);
-    drawSprites();
-
-    // set play paddle position to mouse position, within bounds
-    spr.position.y = Math.max(0, Math.min(height, mouseY));
-
-    // perfect computer player
-    // computer.position.y = ball.position.y;
-
-    // delayed computer player
-    aiPos.push(puck.position.y);
-    ai.position.y = aiPos.shift();
-
-    // wall collisions
-    if (puck.position.y < 4 || puck.position.y > height - 4) {
-        puck.velocity.y *= -1;
-    }
-
-    // goal collisions
-    if (puck.position.x < 4) {
-        score[1]++;
-        puck.position.x = width/2;
-        puck.position.y = height/2;
-        puck.setSpeed(10, rand(170,190));
-    }
-    else if (puck.position.x > width - 4) {
-        score[0]++;
-        puck.position.x = width/2;
-        puck.position.y = height/2;
-        puck.setSpeed(10, rand(-15,15))
-    }
-
-    // ball/paddle collisions
-    puck.overlap(paddles, function(ball, paddle) {
-        puck.velocity.x *= -1.01;
-        puck.velocity.y += (puck.position.y - paddle.position.y) / 20;
-    });
-
-    scoreText = score[0] + " – " + score[1];
-    text(scoreText, width/2, 20);
-  
-    
-  
-  
-    
-  
-  if (score[0] == 8){
-    puck.setSpeed(0, rand(-15,15))
-    scoreText = "Player 1 is the winner";
-    text(scoreText, width/2, 40);
-    }
-         
-  else if (score[1] == 8){
-    puck.setSpeed(0, rand(-15,15));
-    scoreText = "AI is the winner";
-    text(scoreText, width/2, 40);
-    }
-  
-
-  finalscore = 0;
-  finalscoreText ="Your Ultimate Score is " + finalscore;
-  if(score[0] == 8){
-    finalscore = finalscore + 25;
-    text(finalscoreText, width/2, 60);
-  }
-  else if(score[1] == 8){
-    finalscore = finalscore;
-    text(finalscoreText, width/2, 60);
-  }
-  
-    
-  
-  
-
-  
-  
-}
-```
 ## Cube Slasher
 ### Brief Description
 Using p5 and the p5.play library I designed a two dimensional game in which the player moves around using the mouse in order to destroy cubes the shoot up from the bottom of the screen. This game implemented concepts such as velocity, add, states, overlap(), etc... into the code to make the movements of objects seem more organic and pleasing asthetically. 
 ### Problems Encountered
 The only major problem that was encountered was implementing the concept of destroying the blocks everytime that they were touched by the players sprite. This problem was eventually solved by the use of an if statement and the overlap function. Using this function and condition I was able to say that if the players sprite overlaps with the cube then run a "getPoints" function that adds 5 points to the score and removes the cube from the screen. 
 
-### The Project Result
-Please feel free to check out the final result of the website.
+### The Project Results
+https://editor.p5js.org/kgkhs001/sketches/LEY8j8Vk9
 
 
 ### Contact Me
