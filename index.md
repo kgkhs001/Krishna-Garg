@@ -51,11 +51,13 @@ The only major problem that was encountered was implementing the concept of dest
 ### The Project Results
 https://editor.p5js.org/kgkhs001/sketches/LEY8j8Vk9
 
+## Resume
+file:///media/fuse/drivefs-f019f7013e507b540087ea65079af131/root/Krishna%20Garg%20-%20Computer%20Science%20Resume.pdf
 
 ### Contact Me
-1. Email: kgarg1675@gmail.com
+1. Email: [kgarg1675@gmail.com]
 2. Phone: 603-377-2566
-3. Github:kgkhs001
+3. Github:[kgkhs001]
 
 
 
