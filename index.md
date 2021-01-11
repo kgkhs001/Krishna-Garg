@@ -20,8 +20,6 @@ One of the problems I encountered during the making of this project was the size
 
 ### The Code 
 Please feel free to check out the code and results:
-https://ide.cs50.io/2b6723bfbca7432998d22b4d8c9a0519
-
 https://docs.google.com/presentation/d/17S8Kx8qqHLSW5BcbeB6o-fKvhHwiCHubFu94UEMfoA8/edit#slide=id.p
 
 ## A Themed Arcade Website
