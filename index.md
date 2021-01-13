@@ -20,7 +20,7 @@ One of the problems I encountered during the making of this project was the size
 
 ### The Code 
 Please feel free to check out the code and results:
-[Tax Calculator](https://docs.google.com/presentation/d/17S8Kx8qqHLSW5BcbeB6o-fKvhHwiCHubFu94UEMfoA8/edit#slide=id.p)
+[Tax Calculator](https://docs.google.com/presentation/d/17S8Kx8qqHLSW5BcbeB6o-fKvhHwiCHubFu94UEMfoA8/edit?usp=sharing)
 
 ## A Themed Arcade Website
 ### Brief Description
@@ -30,7 +30,7 @@ Using Django, our team was able to build a responsive themed spirit week website
 Some of the problems encountered while creating this project were making a leaderboard, updating a leaderboard, saving login information, and checking login information. I was apart of the functionality team that dealt with these kinds of problems. Fortunatley Django had a swear checker that we implemented while fixing the checking login problem. Django also had a saving log in information function in their library. So the only problem left was setting up and updating the leaderboard automatically. This was solved by extensive research and some magic done in Python by some exceptional individuals in the group. 
 
 ### The Project Results
-[Themed Arcade Website](https://docs.google.com/presentation/d/1q_yTt-fjmfMtiSxusfZBc6lu3F4FZXVzE4INFyj3Gxs/edit#slide=id.p)
+[Themed Arcade Website](https://docs.google.com/presentation/d/1q_yTt-fjmfMtiSxusfZBc6lu3F4FZXVzE4INFyj3Gxs/edit?usp=sharing)
 
 ## Virtual Air Hockey
 ### Brief Description
@@ -52,7 +52,7 @@ The only major problem that was encountered was implementing the concept of dest
 [Cube Slasher](https://editor.p5js.org/kgkhs001/sketches/LEY8j8Vk9)
 
 ## Resume
-[Resume](file:///media/fuse/drivefs-f019f7013e507b540087ea65079af131/root/Krishna%20Garg%20-%20Computer%20Science%20Resume.pdf)
+[Resume](https://docs.google.com/document/d/1MkDROhTo5tQE3NLEM2WnDWVNCsOQQ7wh53PhJC0Ln5c/edit?usp=sharing)
 
 ### Contact Me
 1. Email: [kgarg1675@gmail.com]
