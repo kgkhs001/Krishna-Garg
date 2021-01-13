@@ -37,7 +37,7 @@ Some of the problems encountered while creating this project were making a leade
 Virtual Air Hockey was an add on to the themed website. It was one of the arcade games that went into the over all project. To create this project my partner and I used p5 which is an extension of javascript which is made for more artistic and game like code. But even p5 does not have the necessary logic and physics needed to create a game like virtual air hockey. To incorporate the necessary logic and physics into the code my partner and I found a p5.play library which allowed us to use physics concepts like velocity into our code, in turn making it seem more and more like actual air hockey. This game kept score and increased velocity with every hit. It is a one player game in which the user faces off against an ai.
 
 ### Problems Encountered
-During the game making process there was an issue that the game started as soon as the page opened up. To fix this we incorporated states into our code which made it so that the user would have to click in order to start any motion in the game. Adding states was difficult to do once we had finished the code since we had to go back and modify the whole code to allow states to take action. 
+During the games creation there was an issue that the game started as soon as the page opened up. To fix this we incorporated states into our code which made it so that the user would have to click in order to start any motion in the game. Adding states was difficult to do once we had finished the code since we had to go back and modify the whole code to allow states to take action. 
 
 ### Project Results
 Link: [Air Hockey](https://editor.p5js.org/kgkhs001/sketches/Wi4ZKIIHz)
