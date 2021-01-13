@@ -20,7 +20,7 @@ One of the problems I encountered during the making of this project was the size
 
 ### The Code 
 Please feel free to check out the code and results:
-https://docs.google.com/presentation/d/17S8Kx8qqHLSW5BcbeB6o-fKvhHwiCHubFu94UEMfoA8/edit#slide=id.p
+[Tax Calculator](https://docs.google.com/presentation/d/17S8Kx8qqHLSW5BcbeB6o-fKvhHwiCHubFu94UEMfoA8/edit#slide=id.p)
 
 ## A Themed Arcade Website
 ### Brief Description
@@ -30,7 +30,7 @@ Using Django, our team was able to build a responsive themed spirit week website
 Some of the problems encountered while creating this project were making a leaderboard, updating a leaderboard, saving login information, and checking login information. I was apart of the functionality team that dealt with these kinds of problems. Fortunatley Django had a swear checker that we implemented while fixing the checking login problem. Django also had a saving log in information function in their library. So the only problem left was setting up and updating the leaderboard automatically. This was solved by extensive research and some magic done in Python by some exceptional individuals in the group. 
 
 ### The Project Results
-https://docs.google.com/presentation/d/1q_yTt-fjmfMtiSxusfZBc6lu3F4FZXVzE4INFyj3Gxs/edit#slide=id.p
+[Themed Arcade Website](https://docs.google.com/presentation/d/1q_yTt-fjmfMtiSxusfZBc6lu3F4FZXVzE4INFyj3Gxs/edit#slide=id.p)
 
 ## Virtual Air Hockey
 ### Brief Description
@@ -40,7 +40,7 @@ Virtual Air Hockey was an add on to the themed website. It was one of the arcade
 During the game making process there was an issue that the game started as soon as the page opened up. To fix this we incorporated states into our code which made it so that the user would have to click in order to start any motion in the game. Adding states was difficult to do once we had finished the code since we had to go back and modify the whole code to allow states to take action. 
 
 ### Project Results
-Link: https://editor.p5js.org/kgkhs001/sketches/Wi4ZKIIHz 
+Link: [Air Hockey](https://editor.p5js.org/kgkhs001/sketches/Wi4ZKIIHz)
 
 ## Cube Slasher
 ### Brief Description
@@ -49,10 +49,10 @@ Using p5 and the p5.play library I designed a two dimensional game in which the 
 The only major problem that was encountered was implementing the concept of destroying the blocks everytime that they were touched by the players sprite. This problem was eventually solved by the use of an if statement and the overlap function. Using this function and condition I was able to say that if the players sprite overlaps with the cube then run a "getPoints" function that adds 5 points to the score and removes the cube from the screen. 
 
 ### The Project Results
-https://editor.p5js.org/kgkhs001/sketches/LEY8j8Vk9
+[Cube Slasher](https://editor.p5js.org/kgkhs001/sketches/LEY8j8Vk9)
 
 ## Resume
-file:///media/fuse/drivefs-f019f7013e507b540087ea65079af131/root/Krishna%20Garg%20-%20Computer%20Science%20Resume.pdf
+[Resume](file:///media/fuse/drivefs-f019f7013e507b540087ea65079af131/root/Krishna%20Garg%20-%20Computer%20Science%20Resume.pdf)
 
 ### Contact Me
 1. Email: [kgarg1675@gmail.com]
