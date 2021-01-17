@@ -51,6 +51,53 @@ The only major problem that was encountered was implementing the concept of dest
 ### The Project Results
 [Cube Slasher](https://editor.p5js.org/kgkhs001/sketches/LEY8j8Vk9)
 
+## Caesar
+### Brief Description
+Using C I was able to make a cipher that inputted text and encoded it so that if a stranger were to read it they wouldn't be able to understand what it meant. I used concepts such as if statements, while loops, and functions that converted the letters based on the ASCII system. 
+### Project Reuslts
+```
+#include <cs50.h>
+#include <math.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <ctype.h>
+
+int main(int argc, string argv[])
+{
+    if (argc != 2)
+    {
+        printf("Usage: ./caesar k");
+        return 1;
+        //this is checking if the input is correct
+    }
+
+    string plaintext = get_string("Type in phrase to cipher: ");
+    //this is getting the input
+    int key = atoi(argv[1]);
+    printf("ciphertext: ");
+    for (int i = 0, n = strlen(plaintext); i < n; i++)
+    {
+
+        if (isupper(plaintext[i]))
+    {
+
+        printf("%c",((plaintext[i] - 'A' + key)% 26) + 'A');
+    }
+
+
+        else if (islower(plaintext[i]))
+        {
+            printf("%c",((plaintext[i] - 'a' + key)% 26) + 'a');
+        }
+        else
+        {
+            printf("%c",plaintext[i]);
+        }
+
+    }
+    printf("\n");
+```
 ## Resume
 [Resume](https://docs.google.com/document/d/1MkDROhTo5tQE3NLEM2WnDWVNCsOQQ7wh53PhJC0Ln5c/edit?usp=sharing)
 
